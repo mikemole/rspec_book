@@ -1,0 +1,7 @@
+echo <gemset> > .ruby-gemset
+echo ruby-1.8.7 > .ruby-version
+cd ..
+cd <project-dir>
+
+gem install rspec --version 2.0.0
+gem install cucumber --version 1.1.2
